@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Menu from "@/components/common/menu";
 
 const Header = () => {
   const [menuVisible, setmenuVisible] = useState(false);
+
+  
 
   return (
     <header className="w-full fixed top-0 py-8 select-none z-50 bg-gradient-to-b from-gray-900 to-transparent">

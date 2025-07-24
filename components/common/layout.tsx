@@ -3,6 +3,7 @@ import { METADATA } from "../../constants";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
+    
     <>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
