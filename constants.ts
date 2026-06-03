@@ -61,13 +61,22 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "PBPCO - bottling plants",
-    image: "/projects/pbpco.jpg",
+    name: "Ecoinch Responsible Growth Foundation",
+    image: "/projects/ecoinch.png",
     blurImage: "/projects/blur/figgen-blur.jpg",
-    description: "We present a sustainable alternative to single-use plastics...",
+    description: "ERGF works through businesses, charities, and social work...",
     gradient: ["#1F6582", "#1ABCFE"],
-    url: "https://pbpco.net/",
-    tech: ["javascript", "html", "css"],
+    url: "https://ecoinch.org/",
+    tech: ["Next.Js", "Tailwind CSS"],
+  },
+  {
+    name: "Ecoinch Responsible Growth Foundation",
+    image: "/projects/ecoinch.png",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "ERGF works through businesses, charities, and social work...",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://ecoinch.org/",
+    tech: ["Next.Js", "Tailwind CSS"],
   },
   {
     name: "Al Yamuna - electrical infrastructure industry",
